@@ -3,22 +3,167 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>biu2's page</title>
+    <title>bius.work</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./favicon-black.png" type="image/png" />
+
+    <meta name="title" content="bius.work — End-to-End Web Solutions ✨" />
+    <meta
+      name="description"
+      content="Capable of delivering full-cycle web development — from UI/UX design to coding, deployment, and ongoing maintenance with a focus on security and performance."
+    />
+    <meta
+      name="keywords"
+      content="web development, full-stack, web solutions, สร้างเว็บไซต์, รับทำเว็บไซต์, เว็บไซต์ครบวงจร"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="author" content="biu2" />
 
     <style>
       html,
       body {
         height: 100%;
+      }
+
+      * {
         margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "IBM Plex Sans Thai", sans-serif;
       }
 
       html {
-        background: #000
-          url("https://storage-preps.bius.work/e029c9ddbb3e951a5355e24c8dc37533/hacker.gif")
-          no-repeat fixed center center;
+        background: #000 url("smoker.gif") no-repeat fixed center center;
         background-size: cover;
+      }
+
+      img {
+        aspect-ratio: 1/1;
+        width: 5em;
+        height: 5em;
+        border-radius: 0.5em;
+      }
+
+      .glasses {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px 20px;
+
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        color: #fff;
+        text-align: center;
+      }
+
+      .container {
+        padding: 0 1em;
+        max-width: 512px;
+        height: 100dvh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        width: 100%;
+        display: flex;
+        column-gap: 10px;
+
+        overflow: hidden;
+      }
+
+      .box img {
+        animation: scroll-left 10s linear infinite;
+      }
+
+      .box.r {
+        justify-content: end;
+      }
+
+      .box.r img {
+        animation: scroll-right 10s linear infinite;
+      }
+
+      @keyframes scroll-left {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-225%);
+        }
+      }
+
+      @keyframes scroll-right {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(225%);
+        }
+      }
+
+      .hire_me_please {
+        color: #fff;
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="./favicon-black.png" alt="" />
+        <img src="./favicon-white.png" alt="" />
+        <img src="./favicon-black.png" alt="" />
+        <img src="./favicon-white.png" alt="" />
+        <img src="./favicon-black.png" alt="" />
+        <img src="./favicon-white.png" alt="" />
+        <img src="./favicon-black.png" alt="" />
+        <img src="./favicon-white.png" alt="" />
+        <img src="./favicon-black.png" alt="" />
+        <img src="./favicon-white.png" alt="" />
+        <img src="./favicon-black.png" alt="" />
+        <img src=".//favicon-white.png" alt="" />
+      </div>
+      <div class="glasses">
+        <h3>bius.work — End-to-End Web Solutions ✨</h3>
+        <p>
+          Capable of delivering full-cycle web development — from UI/UX design
+          to coding, deployment, and ongoing maintenance with a focus on
+          security and performance.
+        </p>
+        <a href="mailto:hire@bius.work" class="hire_me_please">
+          hire@bius.work
+        </a>
+      </div>
+      <div class="box r">
+        <img src="./favicon-white.png" alt="" />
+        <img src="./favicon-black.png" alt="" />
+        <img src="./favicon-white.png" alt="" />
+        <img src="./favicon-black.png" alt="" />
+        <img src="./favicon-white.png" alt="" />
+        <img src="./favicon-black.png" alt="" />
+        <img src="./favicon-white.png" alt="" />
+        <img src="./favicon-black.png" alt="" />
+        <img src="./favicon-white.png" alt="" />
+        <img src="./favicon-black.png" alt="" />
+        <img src=".//favicon-white.png" alt="" />
+        <img src="./favicon-black.png" alt="" />
+      </div>
+    </div>
+  </body>
 </html>
